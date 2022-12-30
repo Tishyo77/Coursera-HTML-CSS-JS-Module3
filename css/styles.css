@@ -1,0 +1,89 @@
+body
+{
+    background-color: rgb(255, 201, 109);
+}
+
+#header-nav 
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1100;
+}​
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+    border: 2px solid rgb(255, 119, 0);
+}
+
+.navbar-header button.navbar-toggle
+{
+    margin-top: 14px;
+}
+
+#header-nav
+{
+    background-color: rgb(255, 183, 0);
+    border-radius: 0;
+    border: 0;
+    border-bottom: 0.05cm saddlebrown solid;
+}
+
+.navbar-brand
+{
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar-nav
+{
+    margin:0 -15px;
+}
+
+.navbar-brand h1
+{
+    color: rgb(255, 98, 0);
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+    margin-left: 15px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+    text-decoration: none;  
+}
+#nav-list
+{
+    border-top : 0.05cm saddlebrown solid;
+}
+#nav-list li
+{
+    background: rgb(255, 187, 52);
+}
+#nav-list li a
+{
+    color: rgb(255, 132, 0);
+    font-weight: 750;
+    font-size: large;
+    line-height: 25px
+}
+
+.menu
+{
+    margin: 20px; 
+    margin-top: 90px;
+}
+.main-title
+{
+    font-weight: bold;
+    margin-top: -3px;
+}
+.menu-item
+{
+    margin-bottom: 20px;
+    background:#ff9e1f;  
+    padding: 15px;
+}
